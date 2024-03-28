@@ -1,0 +1,14 @@
+{
+  "file_list": [
+    "SharedQuotaPlugin_replace_version_linux_replace_platform.so"
+  ],
+  "custom_middleware": {
+    "driver": "goplugin",
+    "pre": [
+      {
+        "name": "ApplySharedKey",
+        "path": "SharedQuotaPlugin.so"
+      }
+    ]
+  }
+}

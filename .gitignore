@@ -1,0 +1,11 @@
+.idea/*
+tyk/middleware/bundles/*
+tyk/bundle/manifest.json
+**/.env
+**/*.so
+**/*.zip
+**/.DS_Store
+dist/
+go/src/go.mod
+go/src/go.sum
+go/src/vendor
